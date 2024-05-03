@@ -1,0 +1,11 @@
+runtime: java11  # This is arbitrary since App Engine can serve static files without a specific runtime
+
+handlers:
+- url: /static
+  static_dir: .
+  secure: always
+  expiration: 1d
+
+- url: /.*
+  static_files: index.html
+  upload: index.html

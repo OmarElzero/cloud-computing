@@ -1,0 +1,8 @@
+runtime: nodejs14
+
+env_variables:
+  PORT: 8080  # Default port for App Engine
+  DB_HOST: 'your-database-host'
+  DB_USER: 'your-database-user'
+  DB_PASSWORD: 'your-database-password'
+  DB_NAME: 'your-database-name'
